@@ -11,9 +11,9 @@ const delay = async (ms) => {
 
 const MoviePage =  ({params}) => {
     
-   useEffect(() => {
-     delay(3000)
-   }, [])
+  //  useEffect(() => {
+  //    delay(3000)
+  //  }, [])
    
     const movieId = Number(params.id);
     
